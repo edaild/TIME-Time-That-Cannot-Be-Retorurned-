@@ -41,7 +41,7 @@ public class GameManiser : MonoBehaviour
 
     public void OnButtonclick_Gamestart()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("preparationScene");
     }
 
 }
