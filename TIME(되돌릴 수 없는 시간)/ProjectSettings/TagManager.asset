@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Grounded
+  - IA
   layers:
   - Default
   - TransparentFX

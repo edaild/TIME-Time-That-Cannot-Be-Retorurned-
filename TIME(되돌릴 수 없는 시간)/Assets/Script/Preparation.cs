@@ -15,7 +15,7 @@ public class  Preparation: MonoBehaviour
 
         if (sceneTime <= 0)
         {
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("tutorial Scene");
             
         }
 
