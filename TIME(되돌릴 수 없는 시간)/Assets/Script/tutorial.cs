@@ -34,7 +34,7 @@ public class tutorial : MonoBehaviour
                     if (npc_clickCount == 0)
                     {
                         print(npc_clickCount);
-                        textObject.text = "안녕하세요 저는 Fariy World 시간의 여신 이아 입니다.";
+                        textObject.text = "안녕하세요 저는 페이리 타운에\n 시간의 여신 이아 입니다.";
                         npc_clickCount += 1;
                         text_Count = 1;
 
@@ -46,7 +46,7 @@ public class tutorial : MonoBehaviour
             {
                 if (Input.GetMouseButtonDown(0))
                 {
-                    textObject.text = "이곳은 요정의 세계 Fariy World 입니다.";
+                    textObject.text = "이곳은 요정의 세계 페어리 타운 입니다.";
                     text_Count = 2;
                 }
             }
@@ -54,7 +54,7 @@ public class tutorial : MonoBehaviour
             {
                 if (Input.GetMouseButtonDown(0))
                 {
-                    textObject.text = "Fariy World 에서 마법을 사용해 모험하는 세상입니다.";
+                    textObject.text = "페어리 타운은 요정들이 시간 마법에 \n 흐름에 따라 사는 곳 입니다.";
                     text_Count = 3;
                 }
             }
@@ -62,7 +62,7 @@ public class tutorial : MonoBehaviour
             {
                 if (Input.GetMouseButtonDown(0))
                 {
-                    textObject.text = "마법을 사용하기 위해서는 마법시험에 합격해야 합니다.";
+                    textObject.text = "페어리 마법을 사용하기 위해서는\n 마법시험에 합격해야 합니다.";
                     text_Count = 4;
                 }
             }
@@ -70,7 +70,7 @@ public class tutorial : MonoBehaviour
             {
                 if (Input.GetMouseButtonDown(0))
                 {
-                    textObject.text = "축하합니다. 모든 시험에 합격했습니다.\n 이제 Fariy World 에서 즐거운  모험되세요.";
+                    textObject.text = "축하합니다. 모든 시험에 합격했습니다.\n 이제 페어리 타운 에서 즐거운  모험되세요.";
                     text_Count = 5;
                 }
             }
